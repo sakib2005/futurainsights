@@ -2,7 +2,7 @@
 
 <h1>WordPress Website Created with LocalWP</h1>
 
-<img src="https://wordpress.org/about/images/logos/wordpress-logo-hm-hover.png" alt="WordPress Logo">
+<img src="[https://wordpress.org/about/images/logos/wordpress-logo-hm-hover.png](https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg)" alt="WordPress Logo">
 
 <p>This repository contains the code and assets for a WordPress website that was developed using <a href="https://localwp.com/">LocalWP</a>. LocalWP is a tool that makes it easy to create, manage, and develop WordPress websites locally on your computer.</p>
 
