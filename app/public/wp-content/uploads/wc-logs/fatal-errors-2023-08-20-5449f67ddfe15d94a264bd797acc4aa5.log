@@ -1,0 +1,12 @@
+2023-08-20T19:20:01+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method Sydney_Header::logo() cannot be called statically in C:\Users\pipo\Local Sites\futurainsights\app\public\wp-includes\customize\class-wp-customize-partial.php:222
+Stack trace:
+#0 C:\Users\pipo\Local Sites\futurainsights\app\public\wp-includes\customize\class-wp-customize-selective-refresh.php(372): WP_Customize_Partial->render(Array)
+#1 C:\Users\pipo\Local Sites\futurainsights\app\public\wp-includes\class-wp-hook.php(310): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\Users\pipo\Local Sites\futurainsights\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\pipo\Local Sites\futurainsights\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\pipo\Local Sites\futurainsights\app\public\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\Users\pipo\Local Sites\futurainsights\app\public\wp-blog-header.php(19): require_once('C:\\Users\\pipo\\L...')
+#6 C:\Users\pipo\Local Sites\futurainsights\app\public\index.php(17): require('C:\\Users\\pipo\\L...')
+#7 {main}
+  thrown in C:\Users\pipo\Local Sites\futurainsights\app\public\wp-includes\customize\class-wp-customize-partial.php on line 222
+
